@@ -323,8 +323,7 @@
 	}
 
 	.section-skills,
-	.section-portfolio,
-	.section-form {
+	.section-portfolio {
 	    padding-bottom: 60px;
 	}
 
@@ -385,8 +384,16 @@
 	}
 
 	/* Section: Form */
+	.section-form{
+		padding-bottom: 0;
+	}
+
 	.section-form .btn {
 		margin-top: 25px;
+	}
+
+	.contact_layout {
+		padding-bottom: 50px;
 	}
 
 	/* Modal */
@@ -426,11 +433,11 @@
 	}
 
 	.section-portfolio .col-xs-6:nth-child(odd) {
-		padding-right: 0px;
+		padding: 0 0 20px 0;
 	}
 
 	.section-portfolio .col-xs-6:nth-child(even) {
-		padding-left: 0px;
+		padding: 0 0 20px 0;
 	}
 
 	.portfolio-item,
@@ -460,5 +467,9 @@
 
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
+	}
+
+	.contact_layout{
+		padding-bottom: 30px;
 	}
 }
